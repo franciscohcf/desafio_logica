@@ -9,9 +9,9 @@ describe 'Counts' do
     expect(Mine.new.counts_sand(soil)).to eq 9
   end
 
-  it 'the number of diamonds' do
+  it 'and mine diamonds' do
     soil = '<<.<<..>><>><.>.>.<<.>.<.>>>><>><>>'
 
-    expect(Mine.new.counts_diamonds(soil)).to eq 11
+    expect(Mine.new.mine_diamonds(soil)).to eq 11
   end
 end

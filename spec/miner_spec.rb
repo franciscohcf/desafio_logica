@@ -12,6 +12,6 @@ describe 'Miner' do
   it 'counts diamonds leftovers' do
     soil = '<<.<<..>><>><.>.>.<<.>.<.>>>><>><>>'
 
-    expect(Miner.new.leftovers(soil)).to eq 4
+    expect(Miner.new.assess_soil(soil)).to eq 4
   end
 end

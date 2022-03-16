@@ -5,7 +5,7 @@ class Miner
     soil.split('').reject { |element| element == ('.') }
   end
 
-  def leftovers(soil)
+  def assess_soil(soil)
     lesser = 0
     bigger = 0
     leftover = 0
