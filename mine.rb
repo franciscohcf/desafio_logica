@@ -1,6 +1,10 @@
 # frozen_string_literal: true
 
 class Mine
+  def remove_sand(soil)
+    soil.split('').reject { |element| element == ('.') }
+  end
+
   def counts_diamonds(soil); end
 
   def counts_sand(soil)
@@ -15,3 +19,4 @@ class Mine
     @count
   end
 end
+
