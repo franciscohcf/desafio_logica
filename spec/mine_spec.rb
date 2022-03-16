@@ -2,7 +2,7 @@
 
 require '/home/franciscohcf/desafio_logica/mine'
 
-describe 'User counts' do
+describe 'Counts' do
   it 'the number of grains of sand' do
     soil = '<<.<<..>><>><.>.>.<<.>.<.>>>><>><>>'
 

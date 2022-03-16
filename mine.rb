@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require '/home/franciscohcf/desafio_logica/miner'
+
 class Mine
   def counts_diamonds(soil)
     @diamonds = 0
@@ -31,9 +33,3 @@ class Mine
     @grains
   end
 end
-
-soil = '<<.<<..>><>><.>.>.<<.>.<.>>>><>><>>'
-
-mine = Mine.new
-
-print mine.counts_diamonds(soil)
