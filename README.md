@@ -18,7 +18,7 @@ git clone https://github.com/franciscohcf/desafio_logica.git
 bundle install
 ```
 
-### Rodando o projeto
+### Para obter a resposta do desafio
 
 ```
 rspec
