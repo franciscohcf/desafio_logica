@@ -6,23 +6,24 @@ class Miner
   end
 
   def assess_soil(soil)
-    lesser = 0
-    bigger = 0
-    leftover = 0
+    left_side = 0
+    right_side = 0
 
     soil.split('').each do |i|
       case i
       when '<'
-        lesser += 1
+        left_side += 1
       when '>'
-        bigger += 1
+        right_side += 1
+      else
+        next
       end
     end
 
-    leftover = if lesser > bigger
-                 lesser - bigger
-               else
-                 bigger - lesser
-               end
+    if left_side > right_side
+      left_side - right_side
+    else
+      right_side - left_side
+    end
   end
 end

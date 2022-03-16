@@ -22,6 +22,7 @@ class Mine
       end
     end
 
+    print soil
     diamonds
   end
 
