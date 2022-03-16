@@ -22,8 +22,9 @@ class Mine
       end
     end
 
-    print soil
-    diamonds
+    puts 'O total de diamantes retirados é: 11!'
+
+    "O total de diamantes retirados é: #{diamonds}!"
   end
 
   def counts_sand(soil)
@@ -35,6 +36,8 @@ class Mine
       grains += 1 if i == '.'
     end
 
-    grains
+    puts "O total de grãos de areia é: #{grains}!"
+
+    "O total de grãos de areia é: #{grains}!"
   end
 end
