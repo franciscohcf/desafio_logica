@@ -11,10 +11,6 @@ Trata-se da minha resposta ao teste de lógica dentro do processo seletivo da Mo
 <br />
 
 ```
-git clone https://github.com/franciscohcf/desafio_logica.git
-```
-
-```
 bundle install
 ```
 
