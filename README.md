@@ -1,12 +1,5 @@
 # README
 
-## Sobre o Projeto
-
-Trata-se da minha resposta ao teste de lógica dentro do processo seletivo da Mobile2you.
-<br />
-<br />
-
-
 ## Configurando o projeto
 <br />
 
@@ -14,7 +7,7 @@ Trata-se da minha resposta ao teste de lógica dentro do processo seletivo da Mo
 bundle install
 ```
 
-### Rodando o projeto
+### Para obter a resposta do desafio
 
 ```
 rspec
